@@ -9,8 +9,12 @@ from better_profanity import profanity
 import app.blueprints.services as services
 import app.adapters.repository as repo
 
-app_blueprint = Blueprint('music_blueprint', __name__)
+app_blueprint = Blueprint('app_blueprint', __name__)
 
 @app_blueprint.route('/')
 def root():
     return render_template("home.html")
+
+@app_blueprint.route('/game')
+def game():
+    return render_template("game.html")

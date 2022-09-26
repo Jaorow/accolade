@@ -1,6 +1,22 @@
 body{
-    color: white;
+    color: orange;
     background-color: black;
     text-align: center;
     padding-top: 15%;
+}
+
+#continue-to-page {
+    background-color: orange; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#continue-to-page:hover{
+    background-color: rgb(235, 174, 62);
 }
